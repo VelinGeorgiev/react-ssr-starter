@@ -13,7 +13,7 @@ export default class MyApp extends Component {
     }
 }
 
-// Can't recognize the type, threated as plain js function
+// Can't recognize the type, threated as plain js function (Might work with Typescript)
 // const MyApp = () => {
 
 //     React.useEffect(()=> {
