@@ -13,8 +13,8 @@ export default class MyApp extends Component {
     }
 }
 
-// Can't recognize the type, threated as plain js function (Might work with Typescript)
-// const MyApp = () => {
+// Still can't recognize the React.FC type, threated as plain js function
+// const MyApp: React.FC = () => {
 
 //     React.useEffect(()=> {
 //         console.log('Works!');

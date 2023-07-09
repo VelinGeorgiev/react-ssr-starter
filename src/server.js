@@ -24,7 +24,7 @@ router.on('GET', '/', (req, res, params) => {
 
 router.on('GET', '/main.js', (req, res, params) => {
 
-    let filePath = '/Users/velingeorgiev/Documents/afk/ice2/dist/public/main.js'
+    let filePath = __dirname + '/public/main.js'
     const readableStream = createReadStream(filePath)
 
     res.writeHead(200, {

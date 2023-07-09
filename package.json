@@ -16,7 +16,7 @@
         "build": "npx swc ./src/ -d ./dist",
         "watch": "npx swc ./src/ -d ./dist -w",
         "dev": "node --watch-path=./dist ./dist/server.js",
-        "bundle": "RUST_BACKTRACE=full npx nodemon --watch src --exec \"npx spack\""
+        "bundle": "RUST_BACKTRACE=full npx nodemon --watch src --exec \"npx spack\" -e \"*\""
     },
     "dependencies": {
         "find-my-way": "7.6.2",

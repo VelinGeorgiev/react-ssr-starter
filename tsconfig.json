@@ -1,0 +1,6 @@
+{
+    // this file is here just to tell vs code to shut up
+    "compilerOptions": {
+        "jsx": "react-jsx"
+    },
+}

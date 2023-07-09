@@ -1,11 +1,11 @@
 {
-    "minify": true,
+    // "minify": true,
     "jsc": {
         //"target": "es2015",
         "parser": {
-            "syntax": "ecmascript",
-            "jsx": true
-        }
+            "syntax": "typescript",
+            "tsx": true
+        },
         // ,
         // "transform": {
         //     "react": {
@@ -24,7 +24,7 @@
         //         }
         //     }
         // }
-        ,
+        // ,
         "transform": {
             "react": {
                 "runtime": "automatic"
