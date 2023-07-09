@@ -1,0 +1,32 @@
+{
+    "name": "ice2",
+    "version": "0.0.1",
+    "description": "A React boilerplate for a universal web app with a highly scalable, offline-first foundation and our focus on performance and best practices.",
+    "keywords": [
+        "swc"
+    ],
+    "homepage": "https://github.com/htdangkhoa/react-ssr-starter",
+    "bugs": "https://github.com/htdangkhoa/react-ssr-starter/issues",
+    "repository": "https://github.com/htdangkhoa/react-ssr-starter",
+    "license": "MIT",
+    "author": "Khoa Huynh <huynhtran.dangkhoa@gmail.com> (https://github.com/htdangkhoa)",
+    "main": "dist/server.js",
+    "scripts": {
+        "build": "npx swc ./src/ -d ./dist",
+        "watch": "npx swc ./src/ -d ./dist -w",
+        "dev": "node --watch-path=./dist ./dist/server.js",
+        "bundle": "RUST_BACKTRACE=full npx nodemon --watch src --exec \"npx spack\""
+    },
+    "dependencies": {
+        "find-my-way": "7.6.2",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@swc/core": "1.2.245",
+        "@swc/cli": "0.1.62",
+        "@swc/plugin-styled-jsx":"1.5.69",
+        "chokidar": "3.5.3",
+        "nodemon": "3.0.0"
+    }
+}
