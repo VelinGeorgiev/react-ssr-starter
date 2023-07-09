@@ -1,15 +1,16 @@
 {
-    "name": "ice2",
+    "name": "react-ssr-starter",
     "version": "0.0.1",
-    "description": "A React boilerplate for a universal web app with a highly scalable, offline-first foundation and our focus on performance and best practices.",
+    "description": "A spartan setup for react server side rendering with swc",
     "keywords": [
+        "react",
+        "ssr",
         "swc"
     ],
-    "homepage": "https://github.com/htdangkhoa/react-ssr-starter",
-    "bugs": "https://github.com/htdangkhoa/react-ssr-starter/issues",
-    "repository": "https://github.com/htdangkhoa/react-ssr-starter",
+    "homepage": "https://github.com/VelinGeorgiev/react-ssr-starter",
+    "bugs": "https://github.com/VelinGeorgiev/react-ssr-starter",
+    "repository": "https://github.com/VelinGeorgiev/react-ssr-starter",
     "license": "MIT",
-    "author": "Khoa Huynh <huynhtran.dangkhoa@gmail.com> (https://github.com/htdangkhoa)",
     "main": "dist/server.js",
     "scripts": {
         "build": "npx swc ./src/ -d ./dist",
